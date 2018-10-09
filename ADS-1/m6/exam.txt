@@ -1,0 +1,58 @@
+1)
+
+2)  
+Playing->enqueue
+Playing->Cricket-> enqueue
+Playing->(Cricket-> dequeue)
+Playing->is-> enqueue
+Playing->(is-> dequeue)
+Playing->a-> enqueue
+Playing->a-> hobby->enqueue
+Playing->a->( hobby->dequeue)
+Playing->(a->dequeue)
+Playing->of->enqueue
+Playing->(of->dequeue)
+(Playing->dequeue)
+Mentor->enqueue
+(Mentor->dequeue)
+deepak->enqueue
+
+3)b,e
+
+4)
+
+5){[]()}
+   {->push
+    [->push
+    ]->push
+    brackets are same so they will pop 
+    []->pop
+    (->push
+    )->push
+    ()->pop
+    }->push
+Now the { will be there in the stack and } in the stack
+{}->pop
+So it is balanced
+
+6)N
+
+7)N
+
+8)1
+
+9)N^2
+
+10)
+	0	1	2	3	4	5	6	7	8	9
+
+3-4	0	1	2	4	4	5	6	7	8	9
+4-9	0	1	2	9	9	5	6	7	8	9
+8-0	0	1	2	9	9	5	6	7	0	9
+2-3	0	1	9	9	9	5	6	7	0	9
+5-6	0	1	9	9	9	6	6	7	0	9
+5-9	0	1	9	9	9	9	9	7	0	9
+7-3	0	1	9	9	9	9	9	9	0	9
+4-8	0	1	0	0	0	0	0	0	0	0
+6-1	1	1	1	1	1	1	1	1	1	1
+

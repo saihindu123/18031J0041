@@ -30,27 +30,64 @@ class AddLargeNumbers
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) 
     {
-    	/*LinkedList<Integer>l = new LinkedList<>();
-    	
-    	if(list1==null)
+    	//LinkedList temp =list1;
+    	//LinkedList temp1 =list2;
+    	int carry=0, sum=0,n,m;
+    	Stack<Integer> s1=new Stack<Integer>();
+    	Stack<Integer> s2=new Stack<Integer>();
+    	Stack<Integer> s3=new Stack<Integer>();
+    	LinkedList list3 = new LinkedList ();
+    	for(int i=0;i<list1.size();i++)
     	{
-    		return list2;
+    		s1.push((Integer) list1.get(i));
+    		System.out.println("stack1 "+s1.get(i));
     	}
-    	if(list2==null)
+    	for(int i=0;i<list2.size();i++)
     	{
-    		return list1;
+    		s2.push((Integer) list2.get(i));
+    		System.out.println("stack2 "+s2.get(i));
     	}
-        Stack<Integer> s1 = new Stack<Integer>();
-        Stack<Integer> s2 = new Stack<Integer>();
-        LinkedList temp = list1;
-        while (temp != null)
-        {
-            s1.push();
-            temp = temp.next;
-        }
-        */
-    	
-		return null;
+    
+    	if(s1.size()>=s2.size())
+    	{
+    		for(int i=0;i<s2.size();i++)
+    		{
+    			n=(int) s1.pop();
+    			m=(int) s2.pop();
+    			sum=carry+n+m;
+    			sum=sum%10;
+    			carry=carry+n+m;
+    			carry=carry/10;
+    			s3.push(sum);
+    		}
+    	}
+    	if(!s1.isEmpty())
+    	{
+    		n=(int) s1.pop();
+    		sum=carry+n;
+			sum=sum%10;
+			carry=carry+n;
+			carry=carry/10;
+			s3.push(sum);
+    	}
+    	if(!s2.isEmpty())
+    	{
+    		m=(int) s2.pop();
+			sum=carry+m;
+			sum=sum%10;
+			carry=carry+m;
+			carry=carry/10;
+			s3.push(sum);
+    	}
+    	if(carry>0) {
+    		s3.push(carry);	
+    	}
+  while(!s3.isEmpty())
+  {
+	  System.out.println("*** "+s3);
+  }
+   
+return list3;
     }
 }
 public class Solution 

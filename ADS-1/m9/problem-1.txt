@@ -1,22 +1,30 @@
-E A S Y Q U E S T I O N
-                                                                                                                                         
-EASYQU  || ESTION
+Learning by doing-1
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
 
-EAS|  ||  |YQU   ||   |EST   ||  |ION
+		 E A S Y Q U E S T I O N
+                 0 1 2 3 4 5 6 7 8 9 10 11
+Merge(array,left,mid,right)
+Merge(a,0,0,1) A E
 
-E||AS|   ||  |Y||QU| ||  |E||ST   ||     |I||ON
+Merge(a,2,2,3)	    S  Y
 
-E||A||S|   ||  |Y||Q||U|  ||  |E||S||T||  ||    |I||O||N
+Merge(a,0,2,3)  A E S Y
 
-E || A||S   ||    |Y || Q||U|   ||    | E || S||T|    ||     | I || N||O
+Merge(a,4,4,5) 		 Q U
 
-AES || QUY  || EST || INO
+Merge(a,6,6,7)		       E S
 
-AEQSUY   ||  EINOST
+Merge(a,4,6,7)              E Q S U
 
-A E E I N O Q S S T U Y
+Merge(a,8,8,9) 				I T
 
+Merge(a,10,10,11)				N O
 
+Merge(a,8,10,11)                        I N O T
+
+Merge(a,0,4,7)  A E E Q S S U Y
+
+Merge(a,0,6,11) A E E I N O Q S S T U Y
 		
      
       

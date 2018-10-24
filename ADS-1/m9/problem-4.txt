@@ -1,0 +1,29 @@
+Activity8
+
+write the missing statements in the below code:
+
+public static void merge(Comparable[] a, int lo, int mid, int hi) 
+{ 
+int i = lo, 
+j = mid+1; 
+for (int k = lo; k <= hi; k++) 
+aux[k] = a[k]; 
+for (int k = lo; k <= hi; k++) 
+if (i > -----------)                                         //Blank 1
+a[k] = aux[--------];                      //Blank 2
+else if (--------- > hi )                                //Blank 3
+a[k] = aux[----------];                   //Blank 4
+else if (less(aux[--------], aux[--------]))   //Blank 5 //Blank 6
+a[k] = aux[j++]; 
+else 
+a[k] = aux[i++];
+}
+
+Answers:
+
+Blank 1:j 
+Blank 2:j
+Blank 3:i
+Blank 4:i
+Blank 5:j
+Blank 6:i

@@ -23,7 +23,7 @@ Answers:
 
 Blank 1:j 
 Blank 2:j
-Blank 3:i
-Blank 4:i
+Blank 3:j
+Blank 4:hi
 Blank 5:j
 Blank 6:i

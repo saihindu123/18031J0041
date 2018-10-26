@@ -1,0 +1,40 @@
+Activity5
+
+public String endX(String str)
+
+{
+
+	if(str.length() == 0)
+
+		return str;
+
+	if(str.charAt(0) == 'x')
+
+		return endX(str.substring(1)) + 'x';
+
+	return str.charAt(0) + endX(str.substring(1));
+
+}
+
+Answer the following question when endX method is called with different parameters.
+
+endX("xxre")
+Ans:rexx
+
+endX("xxhixx")
+Ans:hixxxx
+
+
+
+endX("xx") 
+Ans:xx
+
+
+
+end("bxx")
+Ans:bxx
+
+
+
+end("bxax")
+Ans:baxx

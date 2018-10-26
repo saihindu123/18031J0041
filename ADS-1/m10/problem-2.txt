@@ -1,0 +1,35 @@
+Activity3
+
+public int triangle(int rows) 
+{
+
+  if(rows == 0){
+
+    return 0;
+
+  }
+
+  return rows + triangle(rows-1);
+
+}
+
+Answer the following question when triangle method is called with different parameters.
+
+triangle(3)
+Ans:6
+
+
+triangle(2)
+Ans:3
+
+
+triangle(6)
+Ans:21
+
+
+triangle(4)
+Ans:10
+
+
+triangle(7)
+Ans:28

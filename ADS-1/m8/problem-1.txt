@@ -1,0 +1,39 @@
+Show, how selection sort sorts the array E A S Y Q U E S T I O N.
+
+solution:     E  A  S  Y  Q  U  E  S  T  I  O  N
+ 
+it looks for the minimum value and swap with the first index
+A<E
+A will be the first element in the array
+-> A  E  S  Y  Q  U  E  S  T  I  O  N
+    
+E<S
+swap
+-> A  E  E  Y  Q  U  S  S  T  I  O  N
+    
+I<Y
+swap
+-> A  E  E  I  Q  U  S  S  T  Y  O  N 
+
+N<Q
+swap
+-> A  E  E  I  N  U  S  S  T  Y  O  Q
+    
+O<U
+swap
+-> A  E  E  I  N  O  S  S  T  Y  U  Q
+   
+Q<S
+swap
+-> A  E  E  I  N  O  Q  S  T  Y  U  S
+    
+S<T
+swap
+-> A  E  E  I  N  O  Q  S  S  Y  U  T
+    
+T<Y
+swap
+-> A  E  E  I  N  O  Q  S  S  T  U  Y
+   
+
+

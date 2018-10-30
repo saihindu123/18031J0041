@@ -1,0 +1,44 @@
+Learning by doing-1
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with quick sort.
+
+Answers:
+Here the pivot element is the starting element and if(i>pi&&j<pi) then swap i and j values and i and j exceedes/cross then we swap j with pivot.
+
+Step1:Consider E has pivot element and i will be the Pivot next element i.e A and j will be the last element, we need to check whether i>pi&&j<pi and we need to swap.
+    here j cross i so swap pi and j.So swap E and A
+    E A S Y Q U E S T I O N
+    A E S Y Q U E S T I O N
+
+Step2: S is the pivot element.i is =Y and j=N. swap Y and N 
+
+     A E S N Q U E S T I O Y
+
+Step3: S is the pivot element.i is =U and j=O. swap U and O
+
+       A E S N Q O E S T I U Y
+
+Step4:  S is the pivot element.i is =T and j=I. swap T and I
+
+        A E S N Q O E S I T U Y
+
+Step5:  S is the pivot element.i is =T and j=I. Here j cross i so  swap S and I
+
+        A E I N Q O E S S T U Y
+
+Step6:  I is the pivot element.i is =N and j=E.swap N and E
+
+        A E I E Q O N S S T U Y
+
+Step7:  I is the pivot element.i is =Q and j=E.So j>i,swap I and E
+
+        A E E I Q O N S S T U Y
+
+Step8:  Q is the pivot element.i is =S and j=N.So j>i,swap Q and N
+
+        A E E I N O Q S S T U Y
+
+ After sorting the sequence is  A E E I N O Q S S T U Y
+
+
+
+

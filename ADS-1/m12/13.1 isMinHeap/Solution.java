@@ -1,4 +1,6 @@
- import java.util.Scanner;
+ 
+
+import java.util.Scanner;
 
 class Heap
 {
@@ -80,7 +82,7 @@ public class Solution
 			            	String s4[]=null;
 			            	s4=s3.split(",");
 			            Double d[]=new Double[s4.length+1];
-			          	for(int p=0;p<=s4.length;p++)
+			          	for(int p=0;p<=s4.length-1;p++)
 			          	{
 			          		d[p]=Double.parseDouble(s4[p-1]);
 			          	}
@@ -98,7 +100,7 @@ public class Solution
 			            	String s4[]=null;
 			            	s4=s3.split(",");
 			            Double d[]=new Double[s4.length+1];
-			          	for(int p=0;p<=s4.length;p++)
+			          	for(int p=0;p<=s4.length-1;p++)
 			          	{
 			          		d[p]=Double.parseDouble(s4[p-1]);
 			          	}
@@ -116,7 +118,7 @@ public class Solution
 			            	String s4[]=null;
 			            	s4=s3.split(",");
 			            Double d[]=new Double[s4.length+1];
-			          	for(int p=0;p<=s4.length;p++)
+			          	for(int p=0;p<=s4.length-1;p++)
 			          	{
 			          		d[p]=Double.parseDouble(s4[p-1]);
 			          	}

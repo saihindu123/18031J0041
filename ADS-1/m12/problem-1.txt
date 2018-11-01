@@ -1,0 +1,19 @@
+Fill in the blanks-1
+Fill the missing statements in the below code:
+
+public void swim(int k)
+{
+  while((k >________) && less(______,_______))//Blank 1 //Blank 2//Blank 3
+  {
+     exch(______,_______);//Blank 4 //Blank 5
+     k = ________;//Blank 6
+   }
+}
+Answers: 
+
+Blank 1- l
+Blank 2- k/2
+Blank 3- k
+Blank 4- k
+Blank 5- k/2
+Blank 6- k/2

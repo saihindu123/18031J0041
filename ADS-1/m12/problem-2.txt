@@ -1,0 +1,28 @@
+Fill in the blanks-2
+
+Fill the missing statements in the below code:
+
+private vois sink(int k)
+{
+while(2*k<=____)//Blank 1
+{
+   int j=_____;//Blank 2
+   if((j<___) && less(___,___))_____;//Blank 3 //Blank 4 //Blank 5 //Blank 6
+    if(!less(___,___)) break;//Blank 7 //Blank 8
+    exch(____,____);// Blank 9 //Blank 10
+    k = ____;//Blank 11
+  }
+}
+
+Blank 1 - N
+Blank 2 - 2*k
+Blank 3 - N
+Blank 4 - j
+Blank 5 - j+1
+Blank 6 - j++;
+Blank 7 - k
+Blank 8 - j
+Blank 9 - k
+Blank 10 - j
+Blank 11 - j
+   

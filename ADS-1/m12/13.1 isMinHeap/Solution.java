@@ -1,4 +1,3 @@
- 
 
 import java.util.Scanner;
 
@@ -27,7 +26,7 @@ class Heap
 	}
     boolean less1(Double[] d, int j, int i) 
 	{
-    	System.out.println(d.length+" "+j+" "+i);
+    	//System.out.println(d.length+" "+j+" "+i);
 		return d[j]<=d[i];
 		 
 	}
@@ -82,9 +81,9 @@ public class Solution
 			            	String s4[]=null;
 			            	s4=s3.split(",");
 			            Double d[]=new Double[s4.length+1];
-			          	for(int p=0;p<=s4.length-1;p++)
+			          	for(int p=0;p<=s4.length;p++)
 			          	{
-			          		d[p]=Double.parseDouble(s4[p-1]);
+			          		d[p]=Double.parseDouble(s4[p]);
 			          	}
 			            Heap h=new Heap();
 		         	System.out.println(h.minnumber(0,d));
@@ -102,7 +101,7 @@ public class Solution
 			            Double d[]=new Double[s4.length+1];
 			          	for(int p=0;p<=s4.length-1;p++)
 			          	{
-			          		d[p]=Double.parseDouble(s4[p-1]);
+			          		d[p]=Double.parseDouble(s4[p]);
 			          	}
 			            Heap h=new Heap();
 		         	System.out.println(h.minnumber(0,d));
@@ -118,9 +117,9 @@ public class Solution
 			            	String s4[]=null;
 			            	s4=s3.split(",");
 			            Double d[]=new Double[s4.length+1];
-			          	for(int p=0;p<=s4.length-1;p++)
+			          	for(int p=0;p<=s4.length;p++)
 			          	{
-			          		d[p]=Double.parseDouble(s4[p-1]);
+			          		d[p]=Double.parseDouble(s4[p]);
 			          	}
 			            Heap h=new Heap();
 		            	System.out.println(h.minnumber(0,d));

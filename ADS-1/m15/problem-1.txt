@@ -1,0 +1,31 @@
+Fill in the blanks-1
+
+1) Answer the following Questions. The following code is for put method in sequential search ST
+
+public void put(Key key, Value val) {
+        if (key == -------------) throw new IllegalArgumentException("first argument to put() is null");  //Blank1
+        if (val == null) {
+            delete(-----------------);   //Blank2
+            return;
+        }
+        for (Node x = first; x != null; x = ------------) { //Blank3
+            if (key.equals(-----------)) { //Blank4
+                x.val = val;
+                return;
+            }
+        }
+        first = new Node(key, val,------------------); //Blank5
+        n++;
+    }
+Answers:
+
+Blank1:null	
+
+Blank2:key
+
+Blank3:x.next
+
+Blank4:x.key
+
+Blank5:first
+

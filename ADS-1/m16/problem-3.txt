@@ -1,0 +1,33 @@
+Note: A BST is a binary tree where nodes are ordered in the following way:
+
+each node contains one key (also known as data)
+
+The keys in the left subtree are less than the key in its parent node, in short L < P;
+
+The keys in the right subtree are greater the key in its parent node, in short P < R;
+
+Duplicate keys are not allowed.
+
+
+
+Following the above criteria, draw a BST for the following keys (you receive keys from
+
+left to right) and answer the below questions.
+
+11, 6, 8, 19, 4, 17, 43, 49, 31
+
+What will be the child nodes for element 6 ?
+
+ANS:4 8
+
+How many leaf nodes in the resultant tree ?
+
+ANS: They are 5 leaf nodes.They are 4,8,17,31,49
+
+How many compares (key compares) does it take to insert the last element(31) in to the tree?
+
+ANS:3 comparisions are there. 
+
+How many compares (key compares) does it take when we call get(8) method ?
+
+ANS:2 key comparisions are there.

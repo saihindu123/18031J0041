@@ -1,0 +1,37 @@
+Learning by doing-2
+
+Draw all of the different heaps that can be made from the five keys A B C D E, then draw all of the different heaps that 
+can be made from the five keys A A A B B.
+       
+Answers:
+
+	ABCDE
+MAX HEAP:
+	A     |     C     |       C            |           C         |           E         |            E
+       B   C  |  B   A    |    B       A       |       E        A    |       C        A    |         D       A
+                          |  D   E             |    D     B          |    D     B          |      C    B
+   
+MAX HEAP:EDACB
+
+MIN HEAP:
+
+        A
+      B    C
+    D   E
+MIN HEAP:ABCDE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+	AAABB
+MAX HEAP:
+            A       |       A      |      B      |        B
+          A    A    |     B    A   |   A     A   |     B     A
+       B    B       |   A   B      | A   B       |  A    A
+
+MAX HEAP:BBAAA
+
+MIN HEAP:
+          A
+       A     A
+     B   B
+MIN HEAP:AAABB   

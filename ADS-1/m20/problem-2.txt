@@ -1,0 +1,55 @@
+Learning by doing-1
+
+
+Draw the 2-3 tree that results when you insert the keys E A S Y Q U E S T I O N, in that order into an initially empty 2-3 tree.
+
+ANS:
+
+
+Insert E     E
+
+Insert A     AE
+
+Insert S     AES
+
+       S      E
+             A S
+
+       Y      E
+             A SY
+
+       Q       E
+             A   QSY
+
+       Q       ES
+             A  Q Y
+
+       U       ES
+             A  Q UY
+
+       T       ES
+             A  Q TUY
+
+       T       ESU
+             A  Q T Y
+
+       T         S
+              E    U
+             A Q  T Y
+
+       I         S
+              E     U
+             A IQ  T Y
+
+       O          S
+              E      U
+             A IOQ  T Y
+
+       O          S
+              EO     U
+             A I Q  T Y
+
+       N          S
+              EO      U
+             A IN Q  T Y
+ 

@@ -1,0 +1,9 @@
+Learning by doing-1
+
+
+Is the following implementation of hashCode() legal?
+public int hasCode(){
+return 17;
+}
+
+ANS:Yes,Keys all will spot at same index.With will result the less performance

@@ -1,0 +1,19 @@
+Fill in the blanks-2
+
+After Inserting elements 1, 32, 22, 15, 33, 45, 66, 73, 10. How many collisions occur when you hashCode() as key % size after inserting keys into hashtable for given sizes below.
+
+Size = 7 
+
+ANS:7 collisions occur
+
+Size = 8
+
+ANS:5 collisions occur
+
+Size = 12
+
+ANS:6 collisions occur
+
+Size = 1
+
+ANS:8 collisions occur

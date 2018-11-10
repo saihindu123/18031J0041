@@ -1,0 +1,23 @@
+Learning by doing-2
+
+Insert the keys E A S Y Q U T I O N in that order into an initially empty table of M = 5 lists, using separate chaining. 
+Use the hash function 11 k % M to transform the kth letter of the alphabet into a table index.
+
+ANS:
+Given M=5
+       E - 11*5%5=0
+       A - 11*1%5=1
+       S - 11*19%5=4
+       Y - 11*25%5=0
+       Q - 11*17%5=2
+        U - 11*21%5=1
+       T - 11*20%5=0
+       I - 11*9%5=4
+       O - 11*15%5=0
+       N - 11*14%5=4
+
+Bucket 0: {E, Y, T, O}
+Bucket 1: {A,U}
+Bucket 2: {Q}
+Bucket 3: { }
+Bucket 4: {S, I, N}
